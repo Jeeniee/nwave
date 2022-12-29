@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    // "module": "ESNext", // import 오류....
+    "lib": [
+      "dom",
+      "es5",
+      "es2015" 
+    ]
+  }
+}
