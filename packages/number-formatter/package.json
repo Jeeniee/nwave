@@ -1,9 +1,12 @@
 {
   "name": "@nwave/number-formatter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "files": [
+    "/dist"
+  ],
   "dependencies": {
     "@rollup/plugin-typescript": "^10.0.1",
     "@types/typescript": "^2.0.0",
