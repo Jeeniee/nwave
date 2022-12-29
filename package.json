@@ -9,6 +9,11 @@
   },
   "author": "jeenie <devjeenie@gmail.com>",
   "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/Jeeniee/nwave/issues"
   },
