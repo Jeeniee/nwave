@@ -1,16 +1,16 @@
 {
   "name": "@nwave/number-formatter",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "license": "MIT",
   "type": "module",
-  "files": [
-    "/dist"
-  ],
   "dependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^10.0.1",
     "@types/typescript": "^2.0.0",
-    "bignumber.js": "^9.1.1"
+    "bignumber.js": "^9.1.1",
+    "rollup-plugin-ts": "^3.0.2"
   },
   "devDependencies": {
     "rollup": "^3.9.0",
