@@ -2,5 +2,18 @@
   "name": "@nwave/number-formatter",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@rollup/plugin-typescript": "^10.0.1",
+    "@types/typescript": "^2.0.0",
+    "bignumber.js": "^9.1.1"
+  },
+  "devDependencies": {
+    "rollup": "^3.9.0",
+    "tslib": "^2.4.1"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
 }
